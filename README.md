@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://rawcdn.githack.com/Luckyaremu/weather-app.js/8c305e045ca6d54fe04bebd1587cadf8f7e3d025/dist/index.html)
+[Click here](https://rawcdn.githack.com/Luckyaremu/weather-app.js/eee092b2e9b91fbf6ea0a770b41affe3898f8c65/dist/index.html)
 
 ## Getting Started
 
