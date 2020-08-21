@@ -1,6 +1,6 @@
 # Restaurant Page
 
-![screenshot](/screenshot.jpg)
+![screenshot](./src/assets/images/screenshot.jpg)
 
 In this project I:
 
@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://rawcdn.githack.com/Luckyaremu/resturant.js/61587ccdc43a0ab1b4064e342de567fbe8f6bb01/dist/index.html)
+[Click here](https://rawcdn.githack.com/Luckyaremu/weather-app.js/8c305e045ca6d54fe04bebd1587cadf8f7e3d025/dist/index.html)
 
 ## Getting Started
 
