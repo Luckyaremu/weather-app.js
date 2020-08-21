@@ -1,5 +1,3 @@
-//import loadingSpinner from "./assets/images/Spinner-1s-200px.gif";
-
 const addLoader = () => {
   const weatherCard = getEmptyWeatherCardContainer();
 

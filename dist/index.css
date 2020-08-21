@@ -3,9 +3,41 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     letter-spacing: 0.2em;
     font-size: 0.8em;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes animate{
+    0% {
+        background-image: url(/src/assets/images/pexels-efdal-yildiz-917494.jpg);
+    }
+    20% {
+        background-image: url(/src/assets/images/pexels-andre-furtado-1162251.jpg);
+    }
+    40% {
+        background-image: url(/src/assets/images/pexels-freestocksorg-839462.jpg);
+    }
+    60% {
+        background-image: url(/src/assets/images/pexels-iconcom-231008.jpg);
+    }
+    80% {
+        background-image: url(/src/assets/images/pexels-kaique-rocha-125510.jpg);
+    }
+    100% {
+        background-image: url(/src/assets/images/pexels-tomáš-malík-3591558.jpg);
+    }
+}
+
 .container{
     max-width: 400px;
 }
@@ -16,4 +48,10 @@ body{
 
 .header{
     background-color: orangered;
+}
+
+.footer {
+    color: black;
+    align-items: center;
+    font-size: 20px;
 }

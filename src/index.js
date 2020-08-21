@@ -1,5 +1,3 @@
-//import "normalize.css";
-//import "./assets/styles/style.scss";
 import { getWeatherData } from "./weather-data";
 
 const cityInput = document.querySelector(".input-container__text");
