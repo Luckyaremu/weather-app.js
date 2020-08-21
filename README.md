@@ -38,7 +38,7 @@ Linkedin: [Luckyaremu](https://www.linkedin.com/in/lucky-aremu-24807a145/)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Start by:
+Contributions, issues and feature requests are welcome! Start by: 
 
 - Create github repository
 - Cloning the project to your local machine
