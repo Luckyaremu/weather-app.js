@@ -1,4 +1,4 @@
-# Restaurant Page
+# Weather app
 
 ![screenshot](./src/assets/images/screenshot.jpg)
 
@@ -8,7 +8,7 @@ In this project I:
 
 # What it does
 
-- When the page loads, you can check out the contact info and menu of the restaurant.
+- When the page loads, you can check out weather of any city by typing the city on the input field.
 
 ## Built with
 
