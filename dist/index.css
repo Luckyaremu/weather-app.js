@@ -1,5 +1,5 @@
 body{
-    background-image: url("/src/assets/images/pexels-freestocksorg-839462.jpg");
+    background-image: url("https://res.cloudinary.com/aremucamp/image/upload/v1598037744/pexels-tom%C3%A1%C5%A1-mal%C3%ADk-3591558.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,22 +19,22 @@ body{
 
 @keyframes animate{
     0% {
-        background-image: url(/src/assets/images/pexels-efdal-yildiz-917494.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037737/pexels-kaique-rocha-125510.jpg);
     }
     20% {
-        background-image: url(/src/assets/images/pexels-andre-furtado-1162251.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037689/pexels-iconcom-231008.jpg);
     }
     40% {
-        background-image: url(/src/assets/images/pexels-freestocksorg-839462.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037654/pexels-freestocksorg-839462.jpg);
     }
     60% {
-        background-image: url(/src/assets/images/pexels-iconcom-231008.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037641/pexels-flora-westbrook-4269210.jpg);
     }
     80% {
-        background-image: url(/src/assets/images/pexels-kaique-rocha-125510.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037582/pexels-efdal-yildiz-917494.jpg);
     }
     100% {
-        background-image: url(/src/assets/images/pexels-tomáš-malík-3591558.jpg);
+        background-image: url(https://res.cloudinary.com/aremucamp/image/upload/v1598037528/pexels-andre-furtado-1162251.jpg);
     }
 }
 
