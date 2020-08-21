@@ -1,0 +1,19 @@
+body{
+    background-image: url("/src/assets/images/pexels-freestocksorg-839462.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container{
+    max-width: 400px;
+}
+
+.weather-form {
+    background-color: blue;
+}
+
+.header{
+    background-color: orangered;
+}
