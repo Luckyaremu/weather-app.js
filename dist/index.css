@@ -42,8 +42,9 @@ body{
     max-width: 400px;
 }
 
-.weather-form {
-    background-color: blue;
+.footer {
+    align-items: center;
+    font-size: 20px;
 }
 
 .header1{
@@ -52,7 +53,6 @@ body{
     margin-bottom: 1em;
 }
 
-.footer {
-    align-items: center;
-    font-size: 20px;
+.weather-form {
+    background-color: blue;
 }
