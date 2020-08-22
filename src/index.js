@@ -1,25 +1,24 @@
-import { getWeatherData } from "./weather-data";
+import { getWeatherData } from './weather-data';
 
-const cityInput = document.querySelector(".input-container__text");
-const sendInputButton = document.querySelector(".input-container__button");
-const tempToggleButton = document.querySelector( ".input-container__checkbox");
-
+const cityInput = document.querySelector('.input-container__text');
+const sendInputButton = document.querySelector('.input-container__button');
+const tempToggleButton = document.querySelector('.input-container__checkbox');
 
 const handleCityInputClick = (e) => {
   e.preventDefault();
 
-  cityInput.setCustomValidity("");
+  cityInput.setCustomValidity('');
 
-  if(! cityInput.validity.valid) {
-    cityInput.setCustomValidity("Make sure you enter a city name, between 2 and 20 characters long");
+  if (!cityInput.validity.valid) {
+    cityInput.setCustomValidity('Make sure you enter a city name, between 2 and 20 characters long');
     cityInput.reportValidity();
     return;
   }
 
   const cityName = cityInput.value;
-  const tempPreferences = tempToggleButton.checked ? "imperial" : "metric";
+  const tempPreferences = tempToggleButton.checked ? 'imperial' : 'metric';
 
-  getWeatherData( cityName, tempPreferences );
-}
+  getWeatherData(cityName, tempPreferences);
+};
 
-sendInputButton.addEventListener( 'click', handleCityInputClick );
+sendInputButton.addEventListener('click', handleCityInputClick);
