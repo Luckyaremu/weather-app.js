@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weatherapp</title>
+<link rel="stylesheet" href="index.css">
+<body>
+  <header class="header1">
+    <h1 class="header__title">Check weather condition of your city</h1>
+  </header>
+  <section class="form-container">
+    <form class="weather-form">
+      <div class="weather-form__element">
+        <label class="input-container__label city-label" for="text-input">Enter a city</label>
+        <input class="input-container__text" id="text-input" type="text" name="text-input" placeholder="Ex: Lagos / Lagos, Ng" minlength="2" maxlength="30" required>
+      </div>
+
+      <div class="weather-form__element">
+        <label class="input-container__label temp-label" for="checkbox-input">Temp. units</label>
+        <input class="input-container__checkbox" type="checkbox" name="text-input" id="checkbox-input">
+      </div>
+
+      <div class="weather-form__control">
+        <button class="input-container__button" type="submit">Go!!!</button>
+      </div>
+    </form>
+  </section>
+  <main class="weather-card">
+    <h2 class="weather-card__title">
+      Enter a city in the above space to get weather informations.
+    </h2>
+  </main>
+  <footer>
+    <div class="footer">
+      Project by: <a href="https://github.com/Luckyaremu?tab=repositories" target="_blank" class="btn btn-outline-success">Lucky</a> Design inspiration<a href="https://www.instagram.com/rhosy_facebeat/" target="_blank" class="btn btn-outline-success">Alex R.</a> design.
+    </div>
+  </footer>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
